@@ -6,6 +6,34 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-
+    <div class="">
+      <form class="login" action="index.html" method="post">
+        <label class="titulo"><h1>Login</h1></label>
+        <div class="texto">
+          <label for="email">
+            Email <br/>
+            <input type="text" name="email" class="email" value="">
+          </label><br/>
+          <label for="password">
+            Password <br/>
+            <input type="password" name="password" id="password" class= "password" value="">
+          </label><br/>
+        </div>
+        <label for="genero">
+          Género <br/>
+          <select class="genero" name="genero">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+          </select>
+        </label><br/>
+        <label for="terminos">
+          <input type="checkbox" name="terminos" value="">
+          Acepto los términos
+        </label><br/>
+        <div class="boton">
+          <button type="button" name="button">Ingresar</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
